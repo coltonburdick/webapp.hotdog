@@ -22,7 +22,7 @@ namespace HotDogWebApp.Controllers
 
         // Delete.
         [HttpDelete]
-        [Route("api/Delete/{id}")]
+        [Route("api/Menu/{id}")]
         public IHttpActionResult DeleteItemAtIndex(int id)
         {
             try
