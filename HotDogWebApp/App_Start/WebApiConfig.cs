@@ -10,6 +10,10 @@ namespace HotDogWebApp
     {
         public static void Register(HttpConfiguration config)
         {
+            // CORS.
+            var apiCors = new EnableCorsAttribute("*", "*", "*");
+            config.EnableCors(apiCors);
+
             // Web API configuration and services
 
             // Web API routes
