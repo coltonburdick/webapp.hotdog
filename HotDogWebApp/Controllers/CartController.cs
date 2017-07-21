@@ -13,5 +13,11 @@ namespace HotDogWebApp.Controllers
     [EnableCors(origins:"*", headers:"*", methods:"*")]
     public class CartController : ApiController
     {
+        // Getting cart.
+        [HttpGet]
+        public IEnumerable<MenuItem> GetMenu()
+        {
+            return (CartData.itemList);
+        }
     }
 }
