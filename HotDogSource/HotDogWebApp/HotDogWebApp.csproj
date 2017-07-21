@@ -122,7 +122,7 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\dao.hotdog\HotDogDAO\HotDogDAO.csproj">
+    <ProjectReference Include="..\HotDogDAO\HotDogDAO.csproj">
       <Project>{9A84EE55-9842-4516-B89F-2D602BB29326}</Project>
       <Name>HotDogDAO</Name>
     </ProjectReference>

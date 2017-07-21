@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotDogWebApp", "HotDogSource\HotDogWebApp\HotDogWebApp.csproj", "{EBF40160-D913-410C-BF02-5BA036366122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotDogDAO", "..\dao.hotdog\HotDogDAO\HotDogDAO.csproj", "{9A84EE55-9842-4516-B89F-2D602BB29326}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotDogDAO", "HotDogSource\HotDogDAO\HotDogDAO.csproj", "{9A84EE55-9842-4516-B89F-2D602BB29326}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotDogDTO", "..\dto.hotdog\HotDogDTO\HotDogDTO.csproj", "{660836ED-C54F-4807-9F52-1E21DC307343}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotDogDTO", "HotDogSource\HotDogDTO\HotDogDTO.csproj", "{660836ED-C54F-4807-9F52-1E21DC307343}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotDogTest", "HotDogSource\HotDogTest\HotDogTest.csproj", "{9195A3F1-DBAC-469C-9020-ED9E50AA425C}"
 EndProject

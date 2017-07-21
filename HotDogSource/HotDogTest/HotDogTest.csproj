@@ -55,11 +55,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\dao.hotdog\HotDogDAO\HotDogDAO.csproj">
+    <ProjectReference Include="..\HotDogDAO\HotDogDAO.csproj">
       <Project>{9a84ee55-9842-4516-b89f-2d602bb29326}</Project>
       <Name>HotDogDAO</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\dto.hotdog\HotDogDTO\HotDogDTO.csproj">
+    <ProjectReference Include="..\HotDogDTO\HotDogDTO.csproj">
       <Project>{660836ed-c54f-4807-9f52-1e21dc307343}</Project>
       <Name>HotDogDTO</Name>
     </ProjectReference>
